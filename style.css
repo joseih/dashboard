@@ -4,10 +4,15 @@
   --corCards: #14b8a6;
   --corPrincipalContrasteEsc: #92400e;
 }
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.woff2);
+}
 
 * {
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 body {
   background-color: var(--corFundo);
